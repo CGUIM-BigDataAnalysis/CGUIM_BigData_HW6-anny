@@ -17,7 +17,7 @@ output: github_document
 - 對資料們進行探索式資料分析，圖文並茂佳!(`20pt`)
 - 期末專題分析規劃與假設 (`10pt`)
 
-## 分析議題背景
+## 閻俞蓉 分析議題背景
 背景介紹背景介紹
 
 ## 分析動機
@@ -33,6 +33,19 @@ output: github_document
 
 ## 資料處理與清洗
 說明處理資料的步驟
+
+
+
+資料處理(文字轉換數字)
+WaterDataFrame$qua_cntu<-as.numeric(WaterDataFrame$qua_cntu)
+
+資料清洗(不要有負的數值)
+WaterDataClean<-WaterDataFrame[WaterDataFrame$qua_cntu>=0,]
+
+
+
+
+
 
 處理資料
 ```{r}
