@@ -1,0 +1,23 @@
+"0","# å¤§å°ˆé™¢æ ¡å„ç§‘ç³»æ‰€å­¸ç”Ÿæ•¸"
+"0","X105_studentsb <- read_csv(""C:/Users/user/Desktop/105_studentsb.csv"")"
+"2","Parsed with column specification:
+cols(
+  .default = col_integer(),
+  ¬ì¨t¦WºÙ = col_character(),
+  `¤é¶¡¢A¶i­×§O` = col_character(),
+  µ¥¯Å§O = col_character()
+)
+"
+"2","See spec(...) for full column specifications.
+"
+"2","28 parsing failures.
+ row      col               expected actual                                      file
+1621 ¬ì¨t¥N½X no trailing characters     A0 'C:/Users/user/Desktop/105_studentsb.csv'
+1622 ¬ì¨t¥N½X no trailing characters     A0 'C:/Users/user/Desktop/105_studentsb.csv'
+1623 ¬ì¨t¥N½X no trailing characters     A0 'C:/Users/user/Desktop/105_studentsb.csv'
+1624 ¬ì¨t¥N½X no trailing characters     A1 'C:/Users/user/Desktop/105_studentsb.csv'
+1625 ¬ì¨t¥N½X no trailing characters     A2 'C:/Users/user/Desktop/105_studentsb.csv'
+.... ........ ...................... ...... .........................................
+See problems(...) for more details.
+"
+"0","knitr::kable(head(X105_studentsb))"

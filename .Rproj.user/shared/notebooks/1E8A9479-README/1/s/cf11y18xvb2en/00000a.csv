@@ -1,0 +1,15 @@
+"0","ggplot()+geom_bar(data=X105_student,
+                  aes(x=c(""學校名稱""),y=c(""一年級男生""),
+                  stat = ""identity""))
+"
+"2","Ignoring unknown aesthetics: stat"
+"2","Error: stat_count() must not be used with a y aesthetic.
+"
+"2","In addition: "
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"

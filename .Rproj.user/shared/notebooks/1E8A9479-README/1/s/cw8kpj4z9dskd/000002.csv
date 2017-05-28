@@ -1,0 +1,29 @@
+"0","library(dplyr)
+"
+"2","package ¡¥dplyr¡¦ was built under R version 3.3.3"
+"2","
+Attaching package: ¡¥dplyr¡¦
+
+"
+"2","The following objects are masked from ¡¥package:stats¡¦:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ¡¥package:base¡¦:
+
+    intersect, setdiff, setequal, union
+
+"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","#1"
+"0","a1 <- X105_student[grep(""åœ‹ç«‹|é•·åºšå¤§å­¸"", X105_student$'å­¸æ ¡åç¨±'), ]"
+"0","a2 <- a1[-grep(""ç§‘æŠ€å¤§å­¸|å­¸é™¢|å°ˆç§‘å­¸æ ¡"", a1$'å­¸æ ¡åç¨±'), ]"
+"0","student <- a2[grep(""B å­¸å£«"", a2$'ç­‰ç´šåˆ¥'), ]"
+"0","knitr::kable(head(student))"
